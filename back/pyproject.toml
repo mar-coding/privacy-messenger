@@ -4,7 +4,10 @@ version = "0.1.0"
 description = "A privacy first messenger"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.136.1",
+    "pydantic-settings>=2.14.1",
+]
 
 [dependency-groups]
 dev = [
